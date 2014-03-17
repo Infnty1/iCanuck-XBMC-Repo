@@ -31,6 +31,22 @@
     </extension>
 </addon>
 
+<addon id="script.favourites" name="Favourites script" version="4.0.9" provider-name="ronie|`Black">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary>Favourites script</summary>
+		<description>Fetches item from your xbmc favourites to populate Home menu/submenu with custom buttons.</description>
+		<disclaimer>Needs skin support for it to be used properly</disclaimer>
+		<platform>all</platform>
+		<forum>http://forum.xbmc.org/showthread.php?tid=114671</forum>
+		<source>https://code.google.com/p/ronie/source/</source>
+	</extension>
+</addon>
+
 <addon id="service.skin.widgets" name="Skin Widgets" version="0.0.19" provider-name="Martijn">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -73,9 +89,9 @@
 <addon id="skin.sio2xios7" version="0.0.3" name="SiO2-X iOS7" provider-name="iCanuck">
   <requires>
     <import addon="xbmc.gui" version="4.0.0"/>
-    <import addon="script.favourites" version="3.2.5"/>
-    <import addon="service.skin.widgets" version="0.0.13"/>
-	<import addon="script.cinema.experience" version="3.0.3"/>
+    <import addon="script.favourites" version="4.0.9"/>
+    <import addon="service.skin.widgets" version="0.0.27"/>
+	<import addon="script.cinema.experience" version="3.0.6"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

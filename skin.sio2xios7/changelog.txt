@@ -1,3 +1,8 @@
-0.0.3*Added BlueGreen Theme
-0.0.2*Added iOS7 Color Icons
-0.0.1*Added 8 more Favorites
+0.0.3 - 20140313
+- Added BlueGreen Theme.
+
+0.0.2 - 20140301
+- Added iOS7 Color Icons.
+
+0.0.1 - 20140227
+- Added 8 more Favorites.
