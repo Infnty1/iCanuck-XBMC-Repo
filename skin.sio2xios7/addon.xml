@@ -1,9 +1,9 @@
 <addon id="skin.sio2xios7" version="0.0.3" name="SiO2-X iOS7" provider-name="iCanuck">
   <requires>
     <import addon="xbmc.gui" version="4.0.0"/>
-    <import addon="script.favourites" version="4.0.9"/>
-    <import addon="service.skin.widgets" version="0.0.27"/>
-	<import addon="script.cinema.experience" version="3.0.6"/>
+    <import addon="script.favourites" version="3.2.5"/>
+    <import addon="service.skin.widgets" version="0.0.13"/>
+	<import addon="script.cinema.experience" version="3.0.3"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
@@ -15,7 +15,6 @@
     <platform>all</platform>
     <description>Apple TV Replica Skin - Modified SiO2-X Skin with iOS7 Colors & Icons, Thanks to Fastcolors for Original Skin</description>
 	<summary lang="en">A simple and handy Skin visually based on AppleTV with iOS7 Colors</summary>
-    <disclaimer>SiO2-X iOS7</disclaimer>
-   
+    <disclaimer>SiO2-X iOS7</disclaimer>  
   </extension>
 </addon>
