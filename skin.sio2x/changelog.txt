@@ -1,5 +1,0 @@
-
-0.1.2
-* Party Mode Playlists (and general playlist) graphic fixes.
-* Added timed quit.
-* Added Option for Completely Black HomeScreen Background.
