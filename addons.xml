@@ -4,7 +4,7 @@
 	<extension point="xbmc.addon.repository" name="iCanuck's XBMC Addon Repository">
 		<info compressed="false">https://github.com/iCanuck/iCanuck-XBMC-Repo/raw/master/addons.xml</info>
 		<checksum>https://github.com/iCanuck/iCanuck-XBMC-Repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/iCanuck/iCanuck-XBMC-Repo/raw/master/</datadir>
+		<datadir zip="true">https://www.dropbox.com/sh/zuxjpx6em6p95cp/l3hzXPIww8/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install iCanuck's Addons</summary>
