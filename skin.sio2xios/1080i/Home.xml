@@ -16,6 +16,14 @@
         <aspectratio>stretch</aspectratio>
         <texture>images/HomeBG.jpg</texture>
       </control>
+      <control type="image" description="Line">
+        <posx>-90</posx>
+        <posy>503</posy>
+        <width>2100</width>
+        <height>1</height>
+        <aspectratio>stretch</aspectratio>
+        <texture>images/Line1.png</texture>
+      </control>
     </control>
     <control type="button" id="9009">
       <animation effect="slide" condition="[Control.IsVisible(311) + !Skin.HasSetting(Intruder) + !Container(311).HasPrevious] | [Control.IsVisible(311) + !Container(311).HasPrevious + Player.HasVideo]" end="320,0">Conditional</animation>
@@ -28,7 +36,7 @@
       <texturefocus aspectratio="keep">images/hometoggle.png</texturefocus>
       <onclick  condition="Control.IsVisible(311)">Skin.ToggleSetting(MoviesShelfWL)</onclick>
       <onclick  condition="Control.IsVisible(312)">Skin.ToggleSetting(TVShelf_Watchlist)</onclick>
-	  <colordiffuse>FFe2ff43</colordiffuse>
+	  <colordiffuse>FFFFFFFF</colordiffuse>
       <onclick>ReplaceWindow(0)</onclick>
       <onup>-</onup>
       <ondown condition="Control.IsVisible(311)">311</ondown>
@@ -98,14 +106,14 @@
           <texture>icons/overlay.png</texture>
         </control>
         <control type="label" description="LABEL">
-          <posx>155</posx>
+          <posx>150</posx>
           <posy>220</posy>
           <width>300</width>
           <height>24</height>
-          <font>size31</font>
+          <font>size24</font>
           <align>center</align>
-          <textcolor>Grey4</textcolor>
-          <label>$INFO[ListItem.label]</label>
+          <textcolor>White</textcolor>
+          <label>[B]$INFO[ListItem.label][/B]</label>
         </control>
       </itemlayout>
       <focusedlayout height="230" width="300">
@@ -179,13 +187,13 @@
 	  </control>
         <control type="label" description="label">
           <animation effect="fade" start="80" end="100" time="300=" delay="300">Focus</animation>
-          <posx>155</posx>
-          <posy>232</posy>
-          <width>320</width>
+          <posx>150</posx>
+          <posy>220</posy>
+          <width>300</width>
           <height>24</height>
-          <font>size36</font>
+          <font>size24</font>
           <align>center</align>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <label>[B]$INFO[ListItem.label][/B]</label>
         </control>
       </focusedlayout>
@@ -231,8 +239,9 @@
         </item>
         <item id="344">
           <visible>!Skin.HasSetting(hidepic)</visible>
+          <thumb>icons/Photos.png</thumb>
           <label>1</label>
-          <property name="color">icons/photocolor.png</property>
+          <property name="color">icons/darkblue.png</property>
           <onclick>ActivateWindow(2)</onclick>
         </item>
 		<item id="352">
@@ -312,123 +321,96 @@
           <property name="color">icons/darkblue.png</property>
           <onclick>$INFO[Skin.String(HomeFav.6.Path)]</onclick>
         </item>
-        <item id="401" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.7.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.7.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.7.Label)]</label>
-          <property name="color">icons/red.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.7.Path)]</onclick>
-        </item>
-        <item id="402" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.8.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.8.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.8.Label)]</label>
-          <property name="color">icons/lightblue.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.8.Path)]</onclick>
-        </item>
-        <item id="403" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.9.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.9.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.9.Label)]</label>
-          <property name="color">icons/green.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.9.Path)]</onclick>
-        </item>
-        <item id="404" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.10.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.10.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.10.Label)]</label>
-          <property name="color">icons/Orange.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.10.Path)]</onclick>
-        </item>
-        <item id="501" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.11.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.11.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.11.Label)]</label>
-          <property name="color">icons/purple.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.11.Path)]</onclick>
-        </item>
-        <item id="502" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.12.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.12.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.12.Label)]</label>
-          <property name="color">icons/darkblue.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.12.Path)]</onclick>
-        </item>
-        <item id="503" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.13.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.13.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.13.Label)]</label>
-          <property name="color">icons/red.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.13.Path)]</onclick>
-        </item>
-        <item id="504" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.14.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.14.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.14.Label)]</label>
-          <property name="color">icons/lightblue.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.14.Path)]</onclick>
-        </item>		
-        <item id="405" description="Custom addon">
+        <item id="401" description="Custom addon">
           <visible>!IsEmpty(Skin.String(HomeAddon.1.Label))</visible>
           <thumb>$INFO[Skin.String(HomeAddon.1.Icon)]</thumb>
           <label2>$INFO[system.addonicon(Skin.String(HomeAddon.1.label))]</label2>
           <label>$INFO[system.addonTitle(Skin.String(HomeAddon.1.Label))]</label>
-          <property name="color">icons/green.png</property>
+          <property name="color">icons/lightblue.png</property>
           <onclick>RunAddon($INFO[Skin.String(HomeAddon.1.Label)])</onclick>
         </item>
-        <item id="406" description="Custom addon">
+        <item id="402" description="Custom addon">
           <visible>!IsEmpty(Skin.String(HomeAddon.2.Label))</visible>
           <thumb>$INFO[Skin.String(HomeAddon.2.Icon)]</thumb>
           <label2>$INFO[system.addonicon(Skin.String(HomeAddon.2.label))]</label2>
           <label>$INFO[system.addonTitle(Skin.String(HomeAddon.2.Label))]</label>
-          <property name="color">icons/purple.png</property>
+          <property name="color">icons/red.png</property>
           <onclick>RunAddon($INFO[Skin.String(HomeAddon.2.Label)])</onclick>
         </item>
-        <item id="505" description="Custom script">
+        <item id="403" description="Custom addon">
           <visible>!IsEmpty(Skin.String(HomeAddon.3.Label))</visible>
-          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.3.label))]</thumb>
+          <thumb>$INFO[Skin.String(HomeAddon.3.Icon)]</thumb>
+          <label2>$INFO[system.addonicon(Skin.String(HomeAddon.3.label))]</label2>
           <label>$INFO[system.addonTitle(Skin.String(HomeAddon.3.Label))]</label>
-          <property name="color">icons/lightblue.png</property>
+          <property name="color">icons/green.png</property>
           <onclick>RunAddon($INFO[Skin.String(HomeAddon.3.Label)])</onclick>
         </item>
-        <item id="506" description="Custom addon">
+        <item id="404" description="Custom addon">
           <visible>!IsEmpty(Skin.String(HomeAddon.4.Label))</visible>
           <thumb>$INFO[Skin.String(HomeAddon.4.Icon)]</thumb>
           <label2>$INFO[system.addonicon(Skin.String(HomeAddon.4.label))]</label2>
           <label>$INFO[system.addonTitle(Skin.String(HomeAddon.4.Label))]</label>
-          <property name="color">icons/purple.png</property>
+          <property name="color">icons/blue.png</property>
           <onclick>RunAddon($INFO[Skin.String(HomeAddon.4.Label)])</onclick>
         </item>
-        <item id="701" description="Custom addon">
+        <item id="405" description="Custom addon">
           <visible>!IsEmpty(Skin.String(HomeAddon.5.Label))</visible>
           <thumb>$INFO[Skin.String(HomeAddon.5.Icon)]</thumb>
           <label2>$INFO[system.addonicon(Skin.String(HomeAddon.5.label))]</label2>
           <label>$INFO[system.addonTitle(Skin.String(HomeAddon.5.Label))]</label>
-          <property name="color">icons/darkblue.png</property>
+          <property name="color">icons/teak.png</property>
           <onclick>RunAddon($INFO[Skin.String(HomeAddon.5.Label)])</onclick>
         </item>
-        <item id="702" description="Custom addon">
+        <item id="406" description="Custom addon">
           <visible>!IsEmpty(Skin.String(HomeAddon.6.Label))</visible>
           <thumb>$INFO[Skin.String(HomeAddon.6.Icon)]</thumb>
           <label2>$INFO[system.addonicon(Skin.String(HomeAddon.6.label))]</label2>
           <label>$INFO[system.addonTitle(Skin.String(HomeAddon.6.Label))]</label>
+          <property name="color">icons/purple.png</property>
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.6.Label)])</onclick>
+        </item>
+        <item id="501" description="Custom script">
+          <visible>!IsEmpty(Skin.String(HomeAddon.7.Label))</visible>
+          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.7.label))]</thumb>
+          <label>$INFO[system.addonTitle(Skin.String(HomeAddon.7.Label))]</label>
           <property name="color">icons/orange.png</property>
-          <onclick>RunAddon($INFO[Skin.String(HomeAddon.6.Label)])</onclick>		
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.7.Label)])</onclick>
         </item>
-        <item id="703" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.15.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.15.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.15.Label)]</label>
-          <property name="color">icons/lightblue.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.15.Path)]</onclick>
+        <item id="502" description="Custom script">
+          <visible>!IsEmpty(Skin.String(HomeAddon.8.Label))</visible>
+          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.8.label))]</thumb>
+          <label>$INFO[system.addonTitle(Skin.String(HomeAddon.8.Label))]</label>
+          <property name="color">icons/purple.png</property>
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.8.Label)])</onclick>
         </item>
-        <item id="704" description="Custom Fvourite">
-          <visible>!IsEmpty(Skin.String(HomeFav.16.Label))</visible>
-          <thumb>$INFO[Skin.String(HomeFav.16.Icon)]</thumb>
-          <label>$INFO[Skin.String(HomeFav.16.Label)]</label>
+        <item id="503" description="Custom script">
+          <visible>!IsEmpty(Skin.String(HomeAddon.9.Label))</visible>
+          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.9.label))]</thumb>
+          <label>$INFO[system.addonTitle(Skin.String(HomeAddon.9.Label))]</label>
           <property name="color">icons/green.png</property>
-          <onclick>$INFO[Skin.String(HomeFav.16.Path)]</onclick>
-        </item>		
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.9.Label)])</onclick>
+        </item>
+        <item id="504" description="Custom script">
+          <visible>!IsEmpty(Skin.String(HomeAddon.10.Label))</visible>
+          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.10.label))]</thumb>
+          <label>$INFO[system.addonTitle(Skin.String(HomeAddon.10.Label))]</label>
+          <property name="color">icons/red.png</property>
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.10.Label)])</onclick>
+        </item>
+        <item id="505" description="Custom script">
+          <visible>!IsEmpty(Skin.String(HomeAddon.11.Label))</visible>
+          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.11.label))]</thumb>
+          <label>$INFO[system.addonTitle(Skin.String(HomeAddon.11.Label))]</label>
+          <property name="color">icons/lightblue.png</property>
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.11.Label)])</onclick>
+        </item>
+        <item id="506" description="Custom script">
+          <visible>!IsEmpty(Skin.String(HomeAddon.12.Label))</visible>
+          <thumb>$INFO[system.addonicon(Skin.String(HomeAddon.12.label))]</thumb>
+          <label>$INFO[system.addonTitle(Skin.String(HomeAddon.12.Label))]</label>
+          <property name="color">icons/progcolor.png</property>
+          <onclick>RunAddon($INFO[Skin.String(HomeAddon.12.Label)])</onclick>
+        </item>
         <item id="346">
           <visible>!Skin.HasSetting(hidewl)</visible>
           <thumb>icons/watchlist.png</thumb>
@@ -445,7 +427,7 @@
         </item>
         <item id="347">
           <visible>!Skin.HasSetting(hideSources)</visible>
-          <thumb>icons/Sources.png</thumb>
+          <thumb>icons/sources.png</thumb>
           <label>20094</label>
           <property name="color">icons/darkblue.png</property>
           <onclick>activatewindow(1115)</onclick>
@@ -544,12 +526,12 @@
         <posy>1038</posy>
         <width>1920</width>
         <height>33</height>
-        <font>size30</font>
+        <font>size22</font>
         <urlset>1</urlset>
         <shadowcolor>Black</shadowcolor>
-        <titlecolor>Black</titlecolor>
-        <headlinecolor>Black</headlinecolor>
-        <textcolor>Black</textcolor>
+        <titlecolor>White</titlecolor>
+        <headlinecolor>White</headlinecolor>
+        <textcolor>Grey</textcolor>
       </control>
       <control type="image" description="RSS Left fade">
         <visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
@@ -603,8 +585,8 @@
           <aligny>center</aligny>
           <width>261</width>
           <height>36</height>
-          <font>size26</font>
-          <textcolor>Black</textcolor>
+          <font>size24</font>
+          <textcolor>White2</textcolor>
           <label>$INFO[MusicPlayer.Title]</label>
         </control>
         <control type="label">
@@ -613,7 +595,7 @@
           <aligny>center</aligny>
           <width>261</width>
           <height>36</height>
-          <font>size23</font>
+          <font>size21</font>
           <label>$INFO[MusicPlayer.Artist]</label>
         </control>
         <control type="label">
@@ -622,7 +604,7 @@
           <aligny>center</aligny>
           <width>261</width>
           <height>36</height>
-          <font>size23</font>
+          <font>size21</font>
           <label>$INFO[MusicPlayer.Album]</label>
         </control>
         <control type="label">
@@ -631,8 +613,8 @@
           <aligny>center</aligny>
           <width>261</width>
           <height>36</height>
-          <font>size26</font>
-          <textcolor>Black</textcolor>
+          <font>size24</font>
+          <textcolor>White2</textcolor>
           <label>$INFO[VideoPlayer.Title]</label>
         </control>
         <control type="label">
@@ -641,7 +623,7 @@
           <aligny>center</aligny>
           <width>261</width>
           <height>36</height>
-          <font>size23</font>
+          <font>size21</font>
           <label>$INFO[VideoPlayer.Artist]</label>
         </control>
         <control type="label">
@@ -650,7 +632,7 @@
           <aligny>center</aligny>
           <width>261</width>
           <height>36</height>
-          <font>size23</font>
+          <font>size21</font>
           <label>$INFO[VideoPlayer.Album]</label>
         </control>
       </control>
@@ -661,12 +643,12 @@
 	<control type="grouplist">
       <posy>20</posy>
 	  <orientation>horizontal</orientation>
-	  <itemgap>6</itemgap>
+	  <itemgap>18</itemgap>
 	  <align>right</align>
 	  <control type="image" description="WebLink">
 	<visible>System.InternetState + !Skin.HasSetting(hideconnection)</visible>
-	<width>112</width>
-	<height>47</height>
+	<width>30</width>
+	<height>48</height>
 	<texture>wireless.png</texture>
 	<aspectratio>scale</aspectratio>
 	</control>
@@ -680,21 +662,14 @@
       <textcolor>White</textcolor>
       <label>$INFO[System.BatteryLevel] Batt.</label>
     </control>
-	
-	
-	
     <control type="label" description="Clock">
       <visible>!Skin.HasSetting(HideClock)</visible> 
       <width min="30" max="500">auto</width>
       <height>45</height>
-      <font>size36B</font>
+      <font>size30</font>
       <textcolor>White</textcolor>
       <label>$INFO[System.Time] $INFO[System.Date]</label>
     </control>
-	
-	
-	
-	
 	</control>
 	</control>
     <control type="image">
@@ -705,7 +680,7 @@
       <posx>480</posx>
       <width>2</width>
       <height>500</height>
-      <texture>lines/LineV.png</texture>
+      <texture>Images/LineV.png</texture>
     </control>
     <control type="image">
       <include>ShelfFade</include>
@@ -715,7 +690,7 @@
       <posx>320</posx>
       <width>2</width>
       <height>500</height>
-      <texture>lines/LineV.png</texture>
+      <texture>Images/LineV.png</texture>
     </control>
 	<control type="group">
 	<visible>Player.HasVideo + [System.Platform.OSX | System.Platform.Windows]</visible>
@@ -724,7 +699,7 @@
       <posy>902</posy>
       <width>320</width>
       <height>188</height>
-      <texture>images/White.png</texture>
+      <texture>images/black.png</texture>
     </control>
     <control type="videowindow">
       <posx>1400</posx>
