@@ -1,0 +1,20 @@
+<addon id="skin.sio2xi7" version="0.0.3" name="SiO2-X i7" provider-name="iCanuck">
+  <requires>
+    <import addon="xbmc.gui" version="4.0.0"/>
+    <import addon="script.favourites" version="3.2.5"/>
+    <import addon="service.skin.widgets" version="0.0.13"/>
+	<import addon="script.cinema.experience" version="3.0.3"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+	defaultresolution="1080i"
+    defaultthemename="Textures.xbt"
+    debugging="false">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description>AppleTV iOS7 Skin</description>
+    <disclaimer>SiO2 - X - iOS7</disclaimer>
+   
+  </extension>
+</addon>
