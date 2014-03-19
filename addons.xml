@@ -171,7 +171,7 @@
   </extension>
 </addon>
 
-<addon id="skin.sio2xios" version="0.1.2" name="SiO2-X" provider-name="FastColors">
+<addon id="skin.sio2xios" version="0.1.2" name="SiO2-X iOS7" provider-name="FastColors">
   <requires>
     <import addon="xbmc.gui" version="4.0.0"/>
     <import addon="script.favourites" version="3.2.5"/>
