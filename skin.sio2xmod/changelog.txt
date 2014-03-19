@@ -1,0 +1,3 @@
+
+0.1.2
+a*Added 8 more Favorites, 4 Less Addons, 4 Less Scripts to Homescreen
