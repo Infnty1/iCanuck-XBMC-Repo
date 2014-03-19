@@ -3,7 +3,7 @@
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="image" description="Fanart">
       <visible>!IsEmpty(ListItem.Property(fanart_image))</visible>
       <include>VisibleFade</include>
@@ -58,7 +58,7 @@
         <width>1000</width>
         <height>45</height>
         <font>size27</font>
-        <textcolor>Black</textcolor>
+        <textcolor>Grey</textcolor>
         <label>$INFO[ListItem.Studio]</label>
       </control>
       <control type="image" description="Stars rating">
@@ -73,7 +73,7 @@
         <posy>140</posy>
         <height>1</height>
         <width>1000</width>
-        <texture>lines/LineL.png</texture>
+        <texture>images/LineL.png</texture>
       </control>
       <control type="textbox" id="4" description="plot">
         <posy>140</posy>
@@ -85,7 +85,7 @@
         <posy>390</posy>
         <height>1</height>
         <width>1000</width>
-        <texture>lines/LineL.png</texture>
+        <texture>images/LineL.png</texture>
       </control>
       <control type="grouplist" description="Flags">
         <posy>405</posy>
@@ -161,10 +161,10 @@
                 <posy>0</posy>
                 <width>230</width>
                 <height>45</height>
-                <font>size26</font>
+                <font>size21</font>
                 <align>right</align>
                 <aligny>center</aligny>
-                <textcolor>Black</textcolor>
+                <textcolor>Grey</textcolor>
                 <selectedcolor>selected</selectedcolor>
                 <info>ListItem.Label</info>
               </control>
@@ -173,10 +173,10 @@
                 <posy>0</posy>
                 <width>649</width>
                 <height>45</height>
-                <font>size26</font>
+                <font>size21</font>
                 <aligny>center</aligny>
-                <textcolor>Black</textcolor>
-                <selectedcolor>Black</selectedcolor>
+                <textcolor>Grey2</textcolor>
+                <selectedcolor>Grey2</selectedcolor>
                 <info>ListItem.Label2</info>
               </control>
             </itemlayout>
@@ -186,10 +186,10 @@
                 <posy>0</posy>
                 <width>230</width>
                 <height>45</height>
-                <font>size26</font>
+                <font>size21</font>
                 <align>right</align>
                 <aligny>center</aligny>
-                <textcolor>Black</textcolor>
+                <textcolor>Grey</textcolor>
                 <selectedcolor>selected</selectedcolor>
                 <info>ListItem.Label</info>
               </control>
@@ -198,10 +198,10 @@
                 <posy>0</posy>
                 <width>649</width>
                 <height>45</height>
-                <font>size26</font>
+                <font>size21</font>
                 <aligny>center</aligny>
-                <textcolor>Black</textcolor>
-                <selectedcolor>Black</selectedcolor>
+                <textcolor>Grey2</textcolor>
+                <selectedcolor>Grey2</selectedcolor>
                 <info>ListItem.Label2</info>
               </control>
             </focusedlayout>
@@ -292,7 +292,7 @@
               </item>
               <item>
                 <label>$LOCALIZE[573]:</label>
-                <label2>[COLOR=Black]$INFO[ListItem.Path][/COLOR]</label2>
+                <label2>[COLOR=Grey]$INFO[ListItem.Path][/COLOR]</label2>
                 <onclick>-</onclick>
                 <visible>!IsEmpty(ListItem.Path)</visible>
               </item>
@@ -403,14 +403,14 @@
         <posx>100</posx>
         <height>100</height>
         <width>790</width>
-        <texture>images/White.png</texture>
+        <texture>images/Black.png</texture>
 		<colordiffuse>AAFFFFFF</colordiffuse>
       </control>
       <control type="label" description="Media details">
         <posx>120</posx>
         <width>750</width>
         <align>center</align>
-        <textcolor>Black3</textcolor>
+        <textcolor>Silver</textcolor>
         <font>size26</font>
         <label>$INFO[Container(50).ListItem.Label]</label>
       </control>
@@ -419,7 +419,7 @@
       <posy>690</posy>
       <height>1</height>
       <width>1920</width>
-      <texture>lines/Line.png</texture>
+      <texture>images/Line.png</texture>
     </control>
   </controls>
 </window>

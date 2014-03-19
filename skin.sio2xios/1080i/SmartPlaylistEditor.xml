@@ -3,7 +3,7 @@
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="label" id="2" description="Header label">
       <include>Heading</include>
       <label>21432</label>
@@ -22,7 +22,7 @@
         <onleft>22</onleft>
         <onup>9001</onup>
         <ondown>12</ondown>
-        <texturenofocus border="8">images/White.png</texturenofocus>
+        <texturenofocus border="8">images/Black.png</texturenofocus>
       </control>
       <control type="label">
         <description>Name Label</description>
@@ -116,7 +116,7 @@
             <onleft>10</onleft>
             <onright>10</onright>
             <ondown>14</ondown>
-            <texturenofocus border="8">images/White.png</texturenofocus>
+            <texturenofocus border="8">images/Black.png</texturenofocus>
           </control>
           <control type="button" id="14">
             <description>Remove Rule Button</description>
@@ -128,7 +128,7 @@
             <onleft>10</onleft>
             <onright>10</onright>
             <ondown>15</ondown>
-            <texturenofocus border="8">images/White.png</texturenofocus>
+            <texturenofocus border="8">images/Black.png</texturenofocus>
           </control>
           <control type="button" id="15">
             <description>Edit Rule Button</description>
@@ -140,7 +140,7 @@
             <onleft>10</onleft>
             <onright>10</onright>
             <ondown>16</ondown>
-            <texturenofocus border="8">images/White.png</texturenofocus>
+            <texturenofocus border="8">images/Black.png</texturenofocus>
           </control>
         </control>
         <control type="label">
@@ -162,7 +162,7 @@
           <onleft>16</onleft>
           <onup>10</onup>
           <ondown>17</ondown>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
         <control type="spincontrolex" id="17">
           <posx>15</posx>
@@ -173,7 +173,7 @@
           <onleft>17</onleft>
           <onup>16</onup>
           <ondown>18</ondown>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
         <control type="spincontrolex" id="18">
           <posx>15</posx>
@@ -184,7 +184,7 @@
           <onleft>19</onleft>
           <onup>17</onup>
           <ondown>9001</ondown>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
         <control type="togglebutton" id="19">
           <posx>872</posx>
@@ -196,8 +196,8 @@
           <onleft>18</onleft>
           <onup>17</onup>
           <ondown>9001</ondown>
-          <texturenofocus border="8">images/White.png</texturenofocus>
-          <alttexturenofocus border="4">images/White.png</alttexturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
+          <alttexturenofocus border="4">images/Black.png</alttexturenofocus>
         </control>
       </control>
       <control type="group" id="9001">
@@ -212,7 +212,7 @@
           <onleft>21</onleft>
           <onright>21</onright>
           <ondown>22</ondown>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
         <control type="button" id="21">
           <description>Cancel Button</description>
@@ -224,7 +224,7 @@
           <onleft>20</onleft>
           <onright>20</onright>
           <ondown>22</ondown>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
       </control>
     </control>

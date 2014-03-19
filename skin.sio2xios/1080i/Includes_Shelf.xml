@@ -11,7 +11,7 @@
     <align>left</align>
     <aligny>center</aligny>
     <font>size27</font>
-    <textcolor>White</textcolor>
+    <textcolor>White2</textcolor>
     <shadowcolor>Shadow</shadowcolor>
   </include>
   <include name="MoviesShortcutsCommons">
@@ -87,7 +87,7 @@
 		<posy>18</posy>
           <width>254</width>
           <height>389</height>
-          <texture>images/White.png</texture>
+          <texture>images/black.png</texture>
         </control>
         <control type="group">
           <animation effect="fade" start="100" end="25" time="200">Focus</animation>
@@ -148,7 +148,7 @@
           <width>244</width>
           <height>369</height>
           <font>size22</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <label>[CR][B]$INFO[ListItem.Label][/B][CR][CR]$INFO[ListItem.Property(Duration)] $LOCALIZE[12391][CR][CR]$LOCALIZE[345]: $INFO[ListItem.Label2][CR][CR]$INFO[ListItem.Property(Genre)][CR][CR]$INFO[ListItem.Property(MPAA)]</label>
           <align>center</align>
         </control>
@@ -194,7 +194,7 @@
           <width>244</width>
           <height>369</height>
           <font>size22</font>
-          <textcolor>Black3</textcolor>
+          <textcolor>Silver</textcolor>
           <label>[B]$INFO[ListItem.Property(ItemType)][/B][CR][CR][B]$INFO[ListItem.Label][/B]</label>
           <align>center</align>
         </control>
@@ -253,7 +253,7 @@
           <width>244</width>
           <height>369</height>
           <font>size22</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <label>[B]$INFO[ListItem.Property(ItemType)][/B][CR][CR][B]$INFO[ListItem.Label][/B]</label>
           <align>center</align>
         </control>
@@ -342,7 +342,7 @@
           <width>384</width>
           <height>30</height>
           <font>size24B</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <label>$INFO[ListItem.Property(ItemType)]</label>
           <align>center</align>
         </control>
@@ -352,7 +352,7 @@
           <width>384</width>
           <height>55</height>
           <font>size24B</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
 		  <autoscroll>false</autoscroll>
           <label>$INFO[ListItem.Label]</label>
           <align>center</align>
@@ -408,7 +408,7 @@
           <width>375</width>
           <height>36</height>
           <font>size22</font>
-          <textcolor>Black3</textcolor>
+          <textcolor>Silver</textcolor>
           <label>[B][UPPERCASE]$INFO[ListItem.Property(SeasonEpisode)][/UPPERCASE][/B]</label>
           <align>center</align>
         </control>
@@ -464,7 +464,7 @@
           <width>375</width>
           <height>36</height>
           <font>size22</font>
-          <textcolor>Black3</textcolor>
+          <textcolor>Silver</textcolor>
           <label>[B][UPPERCASE]$INFO[ListItem.Property(SeasonEpisode)][/UPPERCASE][/B]</label>
           <align>center</align>
         </control>
@@ -480,7 +480,7 @@
           <width>435</width>
           <height>30</height>
           <font>size26</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <label>[B]$INFO[ListItem.Label][/B]</label>
           <align>center</align>
         </control>
@@ -2185,6 +2185,7 @@
         <height>30</height>
         <font>XS</font>
         <textcolor>Grey</textcolor>
+        <label>HomePage WeatherIcons by MerlinTheRed - http://goo.gl/VLuPi</label>
       </control>
     </control>
   </include>

@@ -2,10 +2,9 @@
   <defaultcontrol always="true">450</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
     <control type="group">
-      <include>Backgroundcolor</include>
+      <include>BlackBackground</include>
       <control type="label" id="411" description="Heading">
         <include>HeadingR</include>
         <label>-</label>
@@ -36,7 +35,7 @@
 			<include>SmallSelector</include>
              <include>ArrowFO</include>
               <control type="label" description="Main Label">
-                <textcolor>White</textcolor>
+                <textcolor>White2</textcolor>
 
 <include>52MainLabel</include>
                 <label>$INFO[ListItem.Label]</label>

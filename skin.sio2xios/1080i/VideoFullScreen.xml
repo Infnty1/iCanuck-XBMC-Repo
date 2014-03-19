@@ -8,7 +8,7 @@
       <control type="image" description="Background">
         <width>1920</width>
         <height>300</height>
-        <texture>images/White.png</texture>
+        <texture>images/Black.png</texture>
         <colordiffuse>BBFFFFFF</colordiffuse>
       </control>
       <control type="grouplist" id="0">

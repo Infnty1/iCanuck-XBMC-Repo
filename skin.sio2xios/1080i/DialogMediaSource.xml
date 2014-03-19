@@ -2,7 +2,7 @@
   <defaultcontrol always="true">11</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="group" description="Right panel">
       <control type="label" id="2" description="Heading">
         <posx>0</posx>
@@ -16,7 +16,7 @@
         <posy>110</posy>
         <height>1</height>
         <width>1920</width>
-        <texture>lines/Line.png</texture>
+        <texture>images/line.png</texture>
       </control>
       <control type="grouplist" id="9001">
         <posx>490</posx>

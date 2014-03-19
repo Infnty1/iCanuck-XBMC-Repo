@@ -9,7 +9,7 @@
       <posy>1007</posy>
       <height>1</height>
       <width>2320</width>
-      <texture>lines/Line.png</texture>
+      <texture>images/Line.png</texture>
     </control>
     <control type="list" id="222">
       <visible>true</visible>
@@ -129,14 +129,14 @@
                   <posy>60</posy>
                   <height>1</height>
                   <width>1920</width>
-                  <texture>lines/Line.png</texture>
+                  <texture>images/Line.png</texture>
                 </control>
                 <control type="image">
                   <posx>400</posx>
                   <posy>490</posy>
                   <height>1</height>
                   <width>1430</width>
-                  <texture>lines/LineL.png</texture>
+                  <texture>images/LineL.png</texture>
                 </control>
                 <control type="textbox">
                   <description>plot</description>

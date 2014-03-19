@@ -2,8 +2,8 @@
   <defaultcontrol always="true">50</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
+    <include>BlackBackground</include>
     <include>WindowsTopInfos</include>
     <control type="group">
       <posx>960</posx>
@@ -49,10 +49,11 @@
           <control type="image">
             <width>900</width>
             <height>81</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>Images/White.png</texture>
+            <colordiffuse>335555FF</colordiffuse>
           </control>
           <control type="label" description="Main Label">
-            <textcolor>White</textcolor>
+            <textcolor>White2</textcolor>
             <include>52MainLabel</include>
             <label>$INFO[ListItem.Label]</label>
           </control>
@@ -292,7 +293,7 @@
       <posy>540</posy>
       <height>1</height>
       <width>660</width>
-      <texture>lines/Line.png</texture>
+      <texture>images/Line.png</texture>
     </control>
     <control type="textbox" description="HelpDetails">
       <posx>170</posx>

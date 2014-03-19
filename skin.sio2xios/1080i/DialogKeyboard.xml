@@ -1,8 +1,7 @@
 <window id="103">
   <defaultcontrol always="true">65</defaultcontrol>
   <allowoverlay>no</allowoverlay>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
     <control type="group">
       <visible>!Window.IsVisible(numericinput)</visible>
       <animation type="WindowOpen">

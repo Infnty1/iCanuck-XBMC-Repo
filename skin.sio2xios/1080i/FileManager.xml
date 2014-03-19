@@ -1,10 +1,10 @@
 ﻿<window id="3">
   <defaultcontrol always="true">20</defaultcontrol>
-  <allowoverlay>no</allowoverlay> 
+  <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
   <onunload condition="!Skin.HasSetting(FirstRun)">Skin.SetBool(FirstRun)</onunload>
   <controls>
-    <include>Backgroundcolor</include>  
+    <include>BlackBackground</include>
     <include>Header</include>
     <control type="label" description="Heading">
       <include>Heading</include>
@@ -15,7 +15,7 @@
       <posy>150</posy>
       <height>930</height>
       <width>1</width>
-      <texture>lines/LineV.png</texture>
+      <texture>images/LineV.png</texture>
     </control>
     <control type="group" description="Left panel">
       <posx>0</posx>
@@ -28,7 +28,7 @@
         <label>-</label>
         <font>size30B</font>
         <haspath>true</haspath>
-        <textcolor>White</textcolor>
+        <textcolor>Yellow</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="list" id="20" description="Left File List">
@@ -47,7 +47,7 @@
             <height>60</height>
             <font>size26</font>
             <aligny>center</aligny>
-            <textcolor>Black3</textcolor>
+            <textcolor>White</textcolor>
             <selectedcolor>Yellow</selectedcolor>
             <info>ListItem.Label</info>
           </control>
@@ -58,7 +58,7 @@
             <font>size27</font>
             <align>right</align>
             <aligny>center</aligny>
-            <textcolor>Black3</textcolor>
+            <textcolor>Silver</textcolor>
             <info>ListItem.Label2</info>
           </control>
         </itemlayout>
@@ -68,14 +68,15 @@
             <posx>-20</posx>
             <width>980</width>
             <height>60</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>Images/White2.png</texture>
+			<colordiffuse>335555FF</colordiffuse>
           </control>
           <control type="label">
             <posx>120</posx>
             <posy>0</posy>
             <width>820</width>
             <height>60</height>
-            <font>size33</font>
+            <font>size26</font>
             <aligny>center</aligny>
             <textcolor>White</textcolor>
             <info>ListItem.Label</info>
@@ -87,7 +88,7 @@
             <font>size27</font>
             <align>right</align>
             <aligny>center</aligny>
-            <textcolor>White</textcolor>
+            <textcolor>Silver</textcolor>
             <info>ListItem.Label2</info>
           </control>
         </focusedlayout>
@@ -98,7 +99,7 @@
         <width>480</width>
         <align>left</align>
         <font>size26</font>
-        <textcolor>Green7</textcolor>
+        <textcolor>Grey</textcolor>
         <label>-</label>
       </control>
     </control>
@@ -113,7 +114,7 @@
         <label>-</label>
         <font>size30B</font>
         <haspath>true</haspath>
-        <textcolor>White</textcolor>
+        <textcolor>Yellow</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="list" id="21" description="Right File List">
@@ -134,7 +135,7 @@
             <font>size26</font>
             <align>right</align>
             <aligny>center</aligny>
-            <textcolor>Black3</textcolor>
+            <textcolor>White</textcolor>
             <info>ListItem.Label</info>
           </control>
           <control type="label">
@@ -143,7 +144,7 @@
             <width>150</width>
             <font>size27</font>
             <aligny>center</aligny>
-            <textcolor>Black3</textcolor>
+            <textcolor>Silver</textcolor>
             <info>ListItem.Label2</info>
           </control>
         </itemlayout>
@@ -153,13 +154,14 @@
             <posx>10</posx>
             <width>980</width>
             <height>60</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect4.png</texture>
+            <texture flipx="true">Images/White2.png</texture>
+			<colordiffuse>335555FF</colordiffuse>
           </control>
           <control type="label">
             <posx>15r</posx>
             <width>790</width>
             <height>60</height>
-            <font>size33</font>
+            <font>size26</font>
             <align>right</align>
             <aligny>center</aligny>
             <textcolor>White</textcolor>
@@ -171,7 +173,7 @@
             <width>150</width>
             <font>size27</font>
             <aligny>center</aligny>
-            <textcolor>White</textcolor>
+            <textcolor>Silver</textcolor>
             <info>ListItem.Label2</info>
           </control>
         </focusedlayout>
@@ -182,7 +184,7 @@
         <width>480</width>
         <align>right</align>
         <font>size26</font>
-        <textcolor>Green7</textcolor>
+        <textcolor>Grey</textcolor>
         <label>-</label>
       </control>
     </control>

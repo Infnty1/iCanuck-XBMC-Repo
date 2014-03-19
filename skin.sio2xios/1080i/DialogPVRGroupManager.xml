@@ -7,7 +7,7 @@
         <width>1920</width>
         <height>1080</height>
         <aspectratio>stretch</aspectratio>
-        <texture>images/White.png</texture>
+        <texture>images/Black.png</texture>
 		<colordiffuse>AAFFFFFF</colordiffuse>
       </control>
 	  <control type="image" description="Dialog">
@@ -23,28 +23,28 @@
         <posy>100</posy>
         <width>2</width>
         <height>750</height>
-        <texture>lines/LineV.png</texture>
+        <texture>images/LineV.png</texture>
       </control>
       <control type="image">
         <posx>1064</posx>
         <posy>100</posy>
         <width>2</width>
         <height>750</height>
-        <texture>lines/LineV.png</texture>
+        <texture>images/LineV.png</texture>
       </control>
 	  <control type="image">
         <posx>1534</posx>
         <posy>100</posy>
         <width>2</width>
         <height>750</height>
-        <texture>lines/LineV.png</texture>
+        <texture>images/LineV.png</texture>
       </control>
 	  <control type="image">
         <posx>120</posx>
         <posy>190</posy>
         <width>1680</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
       </control>
     <control type="group">
 	<posx>15</posx>
@@ -86,7 +86,7 @@
             <label>19146</label>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>White</textcolor>
+            <textcolor>White2</textcolor>
           </control>
           <control type="list" id="13">
             <posy>120</posy>
@@ -157,7 +157,7 @@
             <font>Size26</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>White</textcolor>
+            <textcolor>White2</textcolor>
             <info>Control.GetLabel(21)</info>
           </control>
           <control type="list" id="11">
@@ -241,7 +241,7 @@
             <font>Size26</font>
             <align>center</align>
             <aligny>center</aligny>
-            <textcolor>White</textcolor>
+            <textcolor>White2</textcolor>
             <info>Control.GetLabel(22)</info>
           </control>
           <control type="list" id="12">

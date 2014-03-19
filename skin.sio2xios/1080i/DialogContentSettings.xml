@@ -26,7 +26,7 @@
         <posy>70</posy>
         <height>1</height>
         <width>1035</width>
-        <texture>lines/LineR.png</texture>
+        <texture>images/LineR.png</texture>
       </control>
       <control type="spincontrolex" id="3" description="Content Type">
         <posx>1100</posx>
@@ -89,7 +89,7 @@
         <posy>390</posy>
         <height>1</height>
         <width>1200</width>
-        <texture>lines/LineL.png</texture>
+        <texture>images/LineL.png</texture>
       </control>
       <control type="grouplist" id="5" description="Control Area">
         <posx>435</posx>
@@ -131,7 +131,7 @@
           <posy>813</posy>
           <height>1</height>
           <width>1120</width>
-          <texture>lines/LineR.png</texture>
+          <texture>images/LineR.png</texture>
         </control>
         <control type="button" id="28" description="OK">
           <posx>510</posx>
@@ -142,7 +142,7 @@
           <onright>29</onright>
           <onup>6</onup>
           <ondown>3</ondown>
-          <texturenofocus border="4">images/White.png</texturenofocus>
+          <texturenofocus border="4">images/Black.png</texturenofocus>
         </control>
         <control type="button" id="29" description="Cancel">
           <posx>1008</posx>
@@ -153,7 +153,7 @@
           <onright>-</onright>
           <onup>6</onup>
           <ondown>3</ondown>
-          <texturenofocus border="4">images/White.png</texturenofocus>
+          <texturenofocus border="4">images/Black.png</texturenofocus>
         </control>
       </control>
     </control>

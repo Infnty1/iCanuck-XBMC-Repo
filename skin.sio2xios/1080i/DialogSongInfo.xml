@@ -2,9 +2,8 @@
   <defaultcontrol always="true">300</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
-
+  <controls>
+    <include>BlackBackground</include>
     <include>MusicBackground</include>
     <control type="image" description="Vignette">
       <include>Dimensions_Fullscreen</include>
@@ -60,7 +59,7 @@
       <height>27</height>
       <font>size22</font>
       <align>left</align>
-      <textcolor>Black3</textcolor>
+      <textcolor>Silver</textcolor>
       <haspath>true</haspath>
       <scroll>true</scroll>
       <label>$INFO[ListItem.FilenameAndPath]</label>
@@ -79,7 +78,7 @@
       <width>2085</width>
       <height>1</height>
       <aspectratio>stretch</aspectratio>
-      <texture>lines/Line1.png</texture>
+      <texture>images/Line1.png</texture>
     </control>
     <control type="group" description="Options">
       <posy>0</posy>

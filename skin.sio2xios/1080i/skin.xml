@@ -2,8 +2,7 @@
 <window>
   <defaultcontrol>9000</defaultcontrol>
   <allowoverlays>false</allowoverlays>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
     <control type="videowindow" id="101">
       <description>video preview window</description>
       <width>1920</width>
@@ -271,7 +270,8 @@
 	<animation effect="fade" end="0" time="30">UnFocus</animation>
 	<width>960</width>
 	<height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+	<texture>Images/White2.png</texture>
+	<colordiffuse>335555FF</colordiffuse>
 	</control>
         <control type="image">
           <posx>20</posx>
@@ -284,7 +284,7 @@
           <width>930</width>
           <include>BigListTitleFO</include>
           <selectedcolor>Yellow</selectedcolor>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <align>left</align>
           <info>ListItem.Label</info>
         </control>
@@ -352,7 +352,8 @@
 	<animation effect="fade" end="0" time="30">UnFocus</animation>
 	<width>960</width>
 	<height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+	<texture>Images/White2.png</texture>
+	<colordiffuse>335555FF</colordiffuse>
 	</control>
         <control type="image">
           <posx>20</posx>
@@ -365,7 +366,7 @@
           <width>930</width>
           <include>BigListTitleFO</include>
           <selectedcolor>Yellow</selectedcolor>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <align>left</align>
           <info>ListItem.Label</info>
         </control>
@@ -469,7 +470,7 @@
             <height>60</height>
             <font>Size30</font>
             <aligny>center</aligny>
-            <textcolor>Black3</textcolor>
+            <textcolor>Silver</textcolor>
             <align>center</align>
             <info>ListItem.Label</info>
           </control>
@@ -530,7 +531,7 @@
             <height>60</height>
             <font>Size30</font>
             <aligny>center</aligny>
-            <textcolor>Black3</textcolor>
+            <textcolor>Silver</textcolor>
             <align>center</align>
             <info>ListItem.Label</info>
           </control>

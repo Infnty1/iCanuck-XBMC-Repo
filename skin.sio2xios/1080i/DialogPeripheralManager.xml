@@ -139,7 +139,7 @@
         <align>right</align>
         <aligny>center</aligny>
         <scroll>true</scroll>
-        <textcolor>Black3</textcolor>
+        <textcolor>Silver</textcolor>
         <label>($INFO[Container(20).NumItems] $LOCALIZE[31001] - $LOCALIZE[31000] ($INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages])</label>
       </control>
       <control type="button" id="10">
@@ -152,7 +152,7 @@
         <font>size26</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
-        <texturenofocus border="5">images/White.png</texturenofocus>
+        <texturenofocus border="5">images/Black.png</texturenofocus>
         <align>center</align>
         <onleft>61</onleft>
         <onright>20</onright>

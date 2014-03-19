@@ -3,7 +3,7 @@
   <include>OpenClose</include>
   <allowoverlay>no</allowoverlay>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="label" description="Header Label">
       <include>HeadingR</include>
       <label>20043</label>
@@ -42,7 +42,7 @@
         <posy>692</posy>
         <width>802</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="button" id="28" description="OK">

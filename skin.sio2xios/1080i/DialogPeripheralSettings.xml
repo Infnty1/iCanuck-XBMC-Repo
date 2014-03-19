@@ -114,7 +114,7 @@
           <onright>28</onright>
           <onup>5</onup>
           <ondown>5</ondown>
-          <texturenofocus border="5">images/White.png</texturenofocus>
+          <texturenofocus border="5">images/Black.png</texturenofocus>
         </control>
         <control type="button" id="28">
           <description>OK Button</description>
@@ -130,7 +130,7 @@
           <onright>50</onright>
           <onup>5</onup>
           <ondown>5</ondown>
-          <texturenofocus border="5">images/White.png</texturenofocus>
+          <texturenofocus border="5">images/Black.png</texturenofocus>
         </control>
         <control type="button" id="50">
           <description>Defaults Button</description>
@@ -146,7 +146,7 @@
           <onright>29</onright>
           <onup>5</onup>
           <ondown>5</ondown>
-          <texturenofocus border="5">images/White.png</texturenofocus>
+          <texturenofocus border="5">images/Black.png</texturenofocus>
         </control>
       </control>
     </control>

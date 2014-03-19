@@ -7,7 +7,7 @@
 	<posy>320</posy>
 	<height>760</height>
 	<width>1920</width>
-	<texture>images/White.png</texture>
+	<texture>images/black.png</texture>
 	<colordiffuse>77FFFFFF</colordiffuse>
 	</control>
 		<control type="group">
@@ -59,7 +59,7 @@
         <posy>57</posy>
         <width>1760</width>
         <height>2</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/line.png</texture>
       </control>
       <control type="list" id="11">
         <posx>0</posx>

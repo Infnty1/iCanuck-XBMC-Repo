@@ -4,32 +4,32 @@
 	<include>OpenClose</include>
 
 	<controls>
-		<include>Backgroundcolor</include>
+		<include>BlackBackground</include>
 		<control type="image">
 		<posx>960</posx>
 		<width>1</width>
 		<height>1080</height>
-		<texture>lines/LineV.png</texture>
+		<texture>images/LineV.png</texture>
 		</control>
 		<control type="image">
 		<posy>80</posy>
 		<width>1920</width>
 		<height>1</height>
-		<texture>lines/Line.png</texture>
+		<texture>images/Line.png</texture>
 		</control>
 		<control type="image">
 		<posx>960</posx>
 		<posy>160</posy>
 		<width>960</width>
 		<height>1</height>
-		<texture>lines/Line.png</texture>
+		<texture>images/Line.png</texture>
 		</control>
 		<control type="image">
 		<posx>960</posx>
 		<posy>950</posy>
 		<width>960</width>
 		<height>1</height>
-		<texture>lines/Line.png</texture>
+		<texture>images/Line.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -38,7 +38,7 @@
 			<width>1600</width>
 			<height>30</height>
 			<font>Size36</font>
-			<textcolor>White</textcolor>
+			<textcolor>White2</textcolor>
 			<label>$LOCALIZE[19199] - $LOCALIZE[19023]/$LOCALIZE[19024]</label>
 			<align>center</align>
 			<aligny>center</aligny>
@@ -86,7 +86,7 @@
               <control type="label" description="Main Label">
 			  <posy>6</posy>
                 <width>750</width>
-                <textcolor>White</textcolor>
+                <textcolor>White2</textcolor>
 
 <include>52MainLabel</include>
                 <label>$INFO[ListItem.Label]</label>

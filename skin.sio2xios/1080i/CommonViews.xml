@@ -142,7 +142,7 @@
         <posy>570</posy>
         <width>756</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
       </control>
       <control type="textbox" description="plot">
         <posy>570</posy>
@@ -155,7 +155,7 @@
         <posy>920</posy>
         <width>756</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
       </control>
     </control>
   </include>
@@ -170,7 +170,7 @@
         <posy>550</posy>
         <width>756</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
       </control>
       <control type="textbox" description="plot">
         <posy>550</posy>
@@ -183,7 +183,7 @@
         <posy>900</posy>
         <width>756</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
       </control>
     </control>
   </include>
@@ -349,7 +349,7 @@
         <control type="label" description="Title">
           <posy>-92</posy>
           <font>size30</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <width>608</width>
           <height>36</height>
           <align>left</align>
@@ -360,7 +360,7 @@
           <posy>-45</posy>
           <height>27</height>
           <width>150</width>
-          <colordiffuse>White</colordiffuse>
+          <colordiffuse>White2</colordiffuse>
           <aspectratio align="left">keep</aspectratio>
           <texture>$INFO[ListItem.StarRating]</texture>
         </control>
@@ -369,7 +369,7 @@
           <height>1</height>
           <width>780</width>
           <aspectratio>stretch</aspectratio>
-          <texture>lines/LineR.png</texture>
+          <texture>images/Liner.png</texture>
         </control>
         <control type="image" description="Separator">
           <posx>0</posx>
@@ -377,7 +377,7 @@
           <height>1</height>
           <width>760</width>
           <aspectratio>stretch</aspectratio>
-          <texture>lines/LineL.png</texture>
+          <texture>images/LineL.png</texture>
         </control>
         <control type="grouplist" description="Labels">
           <posx>20</posx>
@@ -390,28 +390,28 @@
             <height>30</height>
             <textcolor>Grey</textcolor>
             <scroll>false</scroll>
-            <label>$LOCALIZE[558]:  [COLOR=White]$INFO[ListItem.Album][/COLOR]</label>
+            <label>$LOCALIZE[558]:  [COLOR=White2]$INFO[ListItem.Album][/COLOR]</label>
           </control>
           <control type="label" description="Genre">
             <font>size30</font>
             <width>750</width>
             <height>30</height>
             <textcolor>Grey</textcolor>
-            <label>$LOCALIZE[515]:  [COLOR=White]$INFO[ListItem.Genre][/COLOR]</label>
+            <label>$LOCALIZE[515]:  [COLOR=White2]$INFO[ListItem.Genre][/COLOR]</label>
           </control>
           <control type="label" description="Type">
             <font>size30</font>
             <width>750</width>
             <height>30</height>
             <textcolor>Grey</textcolor>
-            <label>$LOCALIZE[564]:  [COLOR=White][UPPERCASE]$INFO[ListItem.FileExtension][/UPPERCASE][/COLOR]</label>
+            <label>$LOCALIZE[564]:  [COLOR=White2][UPPERCASE]$INFO[ListItem.FileExtension][/UPPERCASE][/COLOR]</label>
           </control>
           <control type="label" description="Duration">
             <font>size30</font>
             <width>750</width>
             <height>30</height>
             <textcolor>Grey</textcolor>
-            <label>$LOCALIZE[180]:  [COLOR=White]$INFO[ListItem.Duration][/COLOR]</label>
+            <label>$LOCALIZE[180]:  [COLOR=White2]$INFO[ListItem.Duration][/COLOR]</label>
           </control>
         </control>
       </control>
@@ -459,7 +459,7 @@
     <width>120</width>
     <font>size27</font>
     <scroll>false</scroll>
-    <textcolor>White</textcolor>
+    <textcolor>White2</textcolor>
     <align>right</align>
   </include>
   <include name="BigListTitle">
@@ -481,7 +481,7 @@
     <aligny>center</aligny>
     <font>size30</font>
 	<scroll>true</scroll>
-	<textcolor>White</textcolor>
+	<textcolor>White2</textcolor>
   </include>
   <include name="BigListDetails">
     <posx>128</posx>
@@ -499,7 +499,7 @@
     <height>33</height>
     <width>350</width>
     <font>size27</font>
-    <textcolor>White</textcolor>
+    <textcolor>White2</textcolor>
   </include>
   <include name="Watched_Marks">
     <control type="image">
@@ -673,7 +673,7 @@
 	  <control type="image">
                 <width>900</width>
                 <height>1</height>
-                <texture>lines/Line.png</texture>
+                <texture>Images/Line.png</texture>
               </control>
     </focusedlayout>
   </include>
@@ -716,7 +716,7 @@
 	  <control type="image">
 	  <width>802</width>
 	  <height>1</height>
-	  <texture>lines/Line.png</texture> 
+	  <texture>Images/Line.png</texture> 
 	  </control>
     </itemlayout>
     <focusedlayout width="890" height="111">
@@ -758,7 +758,7 @@
 	  <control type="image">
 	  <width>802</width>
 	  <height>1</height>
-	  <texture>lines/Line.png</texture> 
+	  <texture>Images/Line.png</texture> 
 	  </control>
     </focusedlayout>
   </include>
@@ -808,7 +808,7 @@
     <width>758</width>
     <height>168</height>
     <font>size30</font>
-    <textcolor>Black3</textcolor>
+    <textcolor>Silver</textcolor>
     <align>justify</align>
     <aligny>bottom</aligny>
     <autoscroll delay="8000" time="4300" repeat="10000"></autoscroll>
@@ -847,7 +847,7 @@
   <include name="Genre52Commons">
     <posy>-24</posy>
     <font>size27</font>
-    <textcolor>Black3</textcolor>
+    <textcolor>Silver</textcolor>
     <width>762</width>
     <height>36</height>
     <align>left</align>
@@ -917,7 +917,7 @@
         <width>345</width>
         <height>30</height>
         <font>size26</font>
-        <textcolor>White</textcolor>
+        <textcolor>White2</textcolor>
         <label>+ $INFO[ListItem.label2]</label>
         <align>center</align>
       </control>
@@ -954,7 +954,7 @@
         <width>345</width>
         <height>30</height>
         <font>size26</font>
-        <textcolor>White</textcolor>
+        <textcolor>White2</textcolor>
         <label>+ $INFO[ListItem.Label2]</label>
         <align>center</align>
       </control>
@@ -1008,7 +1008,7 @@
         <posy>630</posy>
         <width>682</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="label" description="Updates">
@@ -1091,7 +1091,7 @@
           <posx>-20</posx>
           <width>640</width>
           <font>size33B</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <include>Genre51Commons</include>
           <label>$INFO[ListItem.Label]</label>
         </control>
@@ -1153,7 +1153,7 @@
 	  <posy>-300</posy>
 	  <width>1</width>
 	  <height>1680</height>
-	  <texture>lines/LineV.png</texture>
+	  <texture>Images/LineV.png</texture>
 	  </control>
   </include>
    <include name="SmallSelector">
@@ -1161,7 +1161,8 @@
 	<animation effect="fade" end="0" time="30">UnFocus</animation>
 	<width>920</width>
 	<height>81</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect6.png</texture>
+	<texture>Images/White2.png</texture>
+	<colordiffuse>335555FF</colordiffuse>
 	</control>
   </include>
    <include name="LargeSelector">
@@ -1169,14 +1170,15 @@
 	<animation effect="fade" end="0" time="30">UnFocus</animation>
 	<width>920</width>
 	<height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect6.png</texture>
+	<texture>Images/White2.png</texture>
+	<colordiffuse>335555FF</colordiffuse>
 	</control>
 	</include>
 	<include name="listline">
 	<control type="image">
                 <width>900</width>
                 <height>1</height>
-                <texture>lines/Line.png</texture>
+                <texture>Images/Line.png</texture>
               </control>
 	</include>
 </includes>

@@ -94,7 +94,7 @@
             <posx>1280</posx>
             <width>440</width>
             <height>1</height>
-            <texture>lines/LineL.png</texture>
+            <texture>images/LineL.png</texture>
           
           </control>
         </itemlayout>
@@ -103,7 +103,8 @@
             <posx>1280</posx>
             <width>510</width>
             <height>160</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>images/white.png</texture>
+			<colordiffuse>335555FF</colordiffuse>
           </control>
           <control type="image">
             <posx>1320</posx>
@@ -127,7 +128,8 @@
             <posx>1280</posx>
             <width>440</width>
             <height>1</height>
-            <texture>lines/LineL.png</texture>        
+            <texture>images/LineL.png</texture>
+          
           </control>
         </focusedlayout>
       </control>
@@ -137,8 +139,7 @@
         <width>1140</width>
         <height>80</height>
         <font>Size42B</font>
-        <textcolor>Black</textcolor>
-		<shadowcolor>White</shadowcolor>		
+        <textcolor>Yellow</textcolor>
         <align>center</align>
         <label>$INFO[ListItem.label]</label>
       </control>
@@ -148,7 +149,7 @@
         <width>860</width>
         <height>50</height>
         <font>Size20</font>
-        <textcolor>Black3</textcolor>
+        <textcolor>Silver</textcolor>
         <align>center</align>
         <label>$INFO[ListItem.Tagline]</label>
 	  </control>
@@ -175,13 +176,13 @@
 		<posy>-100</posy>
         <height>1280</height>
         <width>1</width>
-        <texture>lines/LineV.png</texture>
+        <texture>images/LineV.png</texture>
       </control>
       <control type="image">
         <posy>600</posy>
         <height>1</height>
         <width>1340</width>
-        <texture>lines/LineR.png</texture>
+        <texture>images/LineR.png</texture>
       </control>
       
 	  <control type="group" description="EPISODES BLADE">
@@ -191,7 +192,7 @@
 		<animation effect="slide" end="-1340,0" time="500" delay="1000" reversible="false">Hidden</animation>
         <width>1340</width>
         <height>1080</height>
-        <texture>images/White.png</texture>
+        <texture>images/black.png</texture>
       </control>
 	  
       <control type="image">
@@ -242,7 +243,7 @@
 		<animation effect="slide" end="-1340,0" time="500" delay="1000" reversible="false">Hidden</animation>
         <width>1340</width>
         <height>1080</height>
-        <texture>images/White.png</texture>
+        <texture>images/black.png</texture>
       </control>
       <control type="image">
 	  <visible>Container(52).OnNext | Container(52).OnPrevious</visible>
@@ -304,7 +305,7 @@
           <focusedlayout width="802" height="81">
             <control type="label" description="Main Label">
               <width max="609">auto</width>
-              <textcolor>White</textcolor>
+              <textcolor>White2</textcolor>
 
 <include>52MainLabel</include>
               <label>$INFO[ListItem.Label]</label>
@@ -408,7 +409,7 @@
               <width>270</width>
               <height>45</height>
               <font>size27</font>
-              <textcolor>White</textcolor>
+              <textcolor>White2</textcolor>
               <shadowcolor>Black</shadowcolor>
               <align>center</align>
               <label>[B]$INFO[ListItem.Label][/B]</label>
@@ -441,7 +442,7 @@
         <posy>139</posy>
         <width>1748</width>
         <height>1</height>
-        <texture>lines/LineL.png</texture>
+        <texture>images/LineL.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       
@@ -449,7 +450,7 @@
         <posx>82</posx>
         <posy>90</posy>
         <width>1200</width>
-        <textcolor>Black3</textcolor>
+        <textcolor>Silver</textcolor>
         <include>Genre51Commons</include>
         <label>$INFO[ListItem.label][COLOR=Grey]  $INFO[ListItem.Artist]$INFO[ListItem.Property(Addon.Creator)][/COLOR]</label>
       </control>
@@ -473,7 +474,7 @@
           <width>195</width>
           <font>size27</font>
           <align>right</align>
-          <textcolor>Black3</textcolor>
+          <textcolor>Silver</textcolor>
           <label>$INFO[ListItem.Label2]</label>
         </control>
       </control>
@@ -582,7 +583,7 @@
           <posx>0</posx>
           <posy>522</posy>
           <font>size33B</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <width>1760</width>
           <align>center</align>
           <include>Genre51Commons</include>
@@ -592,7 +593,7 @@
           <posx>350</posx>
           <posy>-45</posy>
           <font>size33B</font>
-          <textcolor>White</textcolor>
+          <textcolor>White2</textcolor>
           <width>1360</width>
           <height>45</height>
           <font>size39B</font>
@@ -604,7 +605,7 @@
           <posy>577</posy>
           <width>1890</width>
           <height>1</height>
-          <texture>lines/LineST.png</texture>
+          <texture>images/LineST.png</texture>
           <aspectratio>stretch</aspectratio>
         </control>
         <control type="image" description="Line Split">
@@ -612,7 +613,7 @@
           <posy>510</posy>
           <width>1890</width>
           <height>1</height>
-          <texture>lines/LineST.png</texture>
+          <texture>images/LineST.png</texture>
           <aspectratio>stretch</aspectratio>
         </control>
         <control type="textbox">

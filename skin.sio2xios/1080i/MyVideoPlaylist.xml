@@ -2,7 +2,7 @@
   <defaultcontrol always="true">50</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="group">
       <control type="group" description="Infolist">
         <visible>Control.IsVisible(50)</visible>

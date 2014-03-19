@@ -33,7 +33,7 @@
           <control type="image">
             <width>870</width>
             <height>66</height>
-            <texture border="2">images/White.png</texture>
+            <texture border="2">images/Black.png</texture>
           </control>
           <control type="label">
             <posx>30</posx>

@@ -4,7 +4,7 @@
   <onunload>RunScript(script.favourites)</onunload>
   <include>OpenClose</include>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="label" description="Header label">
       <include>HeadingR</include>
       <label>1036</label>

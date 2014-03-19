@@ -3,7 +3,7 @@
   <include>OpenClose</include>
   <allowoverlay>no</allowoverlay>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <include>Header</include>
     <control type="group">
       <control type="group" description="Thumbs">
@@ -46,7 +46,7 @@
           <height>45</height>
           <font>size33</font>
           <align>left</align>
-          <textcolor>Black3</textcolor>
+          <textcolor>Silver</textcolor>
           <label>$INFO[ListItem.Property(Addon.Creator)]</label>
         </control>
         <control type="label" description="Version">
@@ -55,7 +55,7 @@
           <height>45</height>
           <font>size33</font>
           <align>left</align>
-          <textcolor>Black3</textcolor>
+          <textcolor>Silver</textcolor>
           <label>$LOCALIZE[24051] [B]$INFO[ListItem.Property(Addon.Version)][/B]</label>
         </control>
         <control type="label" description="Disclaimer">
@@ -91,7 +91,7 @@
       <width>1920</width>
       <height>1</height>
       <aspectratio>stretch</aspectratio>
-      <texture>lines/Line.png</texture>
+      <texture>images/Line.png</texture>
     </control>
     <control type="group" description="Options">
       <control type="grouplist" id="300">

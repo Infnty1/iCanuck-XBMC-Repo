@@ -4,7 +4,7 @@
   <include>OpenClose</include>
   <views>50</views>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="label">
       <include>HeadingL</include>
       <label>10503</label>
@@ -121,7 +121,7 @@
         <posx>958</posx>
         <height>1980</height>
         <width>4</width>
-        <texture>lines/LineV.png</texture>
+        <texture>images/LineV.png</texture>
       </control>
       <control type="image">
         <posy>40</posy>
@@ -194,7 +194,7 @@
         <posx>15</posx>
         <width>390</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="grouplist" id="8999">

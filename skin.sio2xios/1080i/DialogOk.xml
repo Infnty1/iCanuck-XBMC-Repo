@@ -44,7 +44,7 @@
         <posy>330</posy>
         <width>300</width>
         <label>186</label>
-        <texturenofocus border="8">images/White.png</texturenofocus>
+        <texturenofocus border="8">images/Black.png</texturenofocus>
       </control>
     </control>
   </controls>

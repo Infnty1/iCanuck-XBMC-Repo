@@ -1,8 +1,7 @@
 <window id="1617">
   <defaultcontrol always="true">52</defaultcontrol>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
     <control type="label" description="Heading">
       <posx>495</posx>
       <posy>20</posy>
@@ -22,7 +21,7 @@
         <posy>270</posy>
         <width>1920</width>
         <height>1</height>
-        <texture>lines/Line1.png</texture>
+        <texture>images/Line1.png</texture>
       </control>
       <control type="group">
         <posx>480</posx>

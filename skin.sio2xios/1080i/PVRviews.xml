@@ -70,7 +70,7 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
           <control type="label">
             <animation condition="IsEmpty(ListItem.Title)" effect="slide" start="0,0" end="0,18" time="0" reversible="true">Conditional</animation>
@@ -107,13 +107,14 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
           <control type="image" description="selector">
             <animation effect="fade" end="0" time="30">UnFocus</animation>
             <width>802</width>
             <height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>Images/White2.png</texture>
+            <colordiffuse>445555FF</colordiffuse>
           </control>
           <control type="label">
             <animation condition="IsEmpty(ListItem.Title)" effect="slide" start="0,0" end="0,18" time="0" reversible="true">Conditional</animation>
@@ -154,7 +155,7 @@
       <posx>1020</posx>
       <width>1</width>
       <height>1080</height>
-      <texture>lines/LineV.png</texture>
+      <texture>Images/LineV.png</texture>
     </control>
     <control type="scrollbar" id="60">
       <posx>39r</posx>
@@ -278,14 +279,15 @@
 			<control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
         </itemlayout>
         <focusedlayout width="802" height="81">
 		<control type="image">
 		<width>802</width>
 		<height>81</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+		<texture>Images/White2.png</texture>
+        <colordiffuse>445555FF</colordiffuse>
 		</control>
           <control type="label">
             <posx>60</posx>
@@ -299,7 +301,7 @@
           </control>
           <control type="label"> 
 		  	<posx>70</posx>
-		  	<textcolor>White</textcolor>
+		  	<textcolor>White2</textcolor>
             <include>52MainLabel</include>
             <label>$INFO[ListItem.Label]</label>
           </control>
@@ -319,7 +321,7 @@
 		  <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
         </focusedlayout>
       </control>
@@ -349,7 +351,7 @@
 	<posx>1020</posx>
 	<width>1</width>
 	<height>1080</height>
-	<texture>lines/LineV.png</texture>
+	<texture>Images/LineV.png</texture>
 	</control>
   </control>
   </include>
@@ -399,7 +401,7 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
         </itemlayout>
         <focusedlayout width="802" height="111">
@@ -407,7 +409,8 @@
             <animation effect="fade" end="0" time="30">UnFocus</animation>
             <width>802</width>
             <height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>Images/White2.png</texture>
+            <colordiffuse>445555FF</colordiffuse>
           </control>
           <include>Watched_Marks</include> <include>HD_BadgeLW</include>
           <control type="group">
@@ -434,7 +437,7 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
         </focusedlayout>
       </control>
@@ -443,7 +446,7 @@
       <posx>1020</posx>
       <width>1</width>
       <height>1080</height>
-      <texture>lines/LineV.png</texture>
+      <texture>Images/LineV.png</texture>
     </control>
     <control type="scrollbar" id="60">
       <posx>39r</posx>
@@ -700,7 +703,7 @@
           <posy>100</posy>
           <width>1160</width>
           <height>1</height>
-          <texture>lines/Line.png</texture>
+          <texture>images/Line.png</texture>
           <aspectratio>stretch</aspectratio>
         </control>
         <control type="image">
@@ -708,7 +711,7 @@
           <posy>380</posy>
           <width>1160</width>
           <height>1</height>
-          <texture>lines/Line.png</texture>
+          <texture>images/Line.png</texture>
           <aspectratio>stretch</aspectratio>
         </control>
         <control type="textbox" id="400">
@@ -982,7 +985,7 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
           <control type="label" description="Main Label">
             <posx>45</posx>
@@ -1001,12 +1004,13 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
           <control type="image">
             <width>802</width>
             <height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>Images/White2.png</texture>
+            <colordiffuse>445555FF</colordiffuse>
           </control>
           <control type="label" description="Main Label">
             <posx>45</posx>
@@ -1027,7 +1031,7 @@
       <posx>1020</posx>
       <width>1</width>
       <height>1080</height>
-      <texture>lines/LineV.png</texture>
+      <texture>Images/LineV.png</texture>
     </control>
     <control type="scrollbar" id="60">
       <posx>39r</posx>
@@ -1104,7 +1108,7 @@
         <posy>50</posy>
         <width>2720</width>
         <height>2</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/line.png</texture>
       </control>
       <control type="list" id="15">
         <posx>0</posx>
@@ -1328,7 +1332,7 @@
 		<control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
           <control type="label" description="Main Label">
             <posx>45</posx>
@@ -1347,13 +1351,14 @@
           <control type="image">
             <width>802</width>
             <height>1</height>
-            <texture>lines/Line.png</texture>
+            <texture>Images/Line.png</texture>
           </control>
           <control type="image" description="selector">
             <animation effect="fade" end="0" time="30">UnFocus</animation>
             <width>802</width>
             <height>111</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>Images/White2.png</texture>
+            <colordiffuse>445555FF</colordiffuse>
           </control>
           <control type="label" description="Main Label">
             <posx>45</posx>
@@ -1375,7 +1380,7 @@
 	<posx>1020</posx>
 	<width>1</width>
 	<height>1080</height>
-	<texture>lines/LineV.png</texture>
+	<texture>Images/LineV.png</texture>
 	</control>
     <control type="scrollbar" id="60">
       <posx>39r</posx>

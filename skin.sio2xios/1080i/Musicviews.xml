@@ -87,7 +87,7 @@
 			<control type="image">
                 <width>900</width>
                 <height>1</height>
-                <texture>lines/Line.png</texture>
+                <texture>Images/Line.png</texture>
               </control>
           </itemlayout>
           <focusedlayout width="890" height="81">
@@ -95,11 +95,12 @@
                 <animation effect="fade" end="0" time="30">UnFocus</animation>
                 <width>920</width>
                 <height>81</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+                <texture>Images/White2.png</texture>
+                <colordiffuse>335555FF</colordiffuse>
               </control>
             <control type="label" description="Main Label">
               <width max="629">auto</width>
-              <textcolor>White</textcolor>
+              <textcolor>White2</textcolor>
   			  <include>52MainLabel</include>
               <label>$INFO[ListItem.Label]</label>
             </control>
@@ -121,14 +122,14 @@
 			<control type="image">
                 <width>900</width>
                 <height>1</height>
-                <texture>lines/Line.png</texture>
+                <texture>Images/Line.png</texture>
               </control>
           </focusedlayout>
         </control>
 		<control type="image">
         <width>1</width>
         <height>1080</height>
-        <texture>lines/LineV.png</texture>
+        <texture>Images/LineV.png</texture>
       </control>
       </control>
       <control type="scrollbar" id="60">
@@ -224,7 +225,7 @@
               <width>270</width>
               <height>45</height>
               <font>size27</font>
-              <textcolor>White</textcolor>
+              <textcolor>White2</textcolor>
               <shadowcolor>Black</shadowcolor>
               <align>center</align>
               <label>[B]$INFO[ListItem.Label][/B]</label>
@@ -257,7 +258,7 @@
         <posy>139</posy>
         <width>1748</width>
         <height>1</height>
-        <texture>lines/LineL.png</texture>
+        <texture>images/LineL.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="label" description="Media details">
@@ -367,7 +368,7 @@
             <posx>1280</posx>
             <width>440</width>
             <height>1</height>
-            <texture>lines/LineL.png</texture>
+            <texture>images/LineL.png</texture>
           
           </control>
         </itemlayout>
@@ -377,7 +378,8 @@
             <posx>1280</posx>
             <width>510</width>
             <height>160</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselect1.png</texture>
+            <texture>images/white2.png</texture>
+			<colordiffuse>335555FF</colordiffuse>
           </control>
           <control type="image">
             <posx>1680</posx>
@@ -401,7 +403,7 @@
             <posx>1280</posx>
             <width>440</width>
             <height>1</height>
-            <texture>lines/LineL.png</texture>
+            <texture>images/LineL.png</texture>
           </control>
         </focusedlayout>
       </control>
@@ -637,13 +639,13 @@
 		<posy>-100</posy>
         <height>1280</height>
         <width>1</width>
-        <texture>lines/LineV.png</texture>
+        <texture>images/LineV.png</texture>
       </control>
       <control type="image">
         <posy>600</posy>
         <height>1</height>
         <width>1340</width>
-        <texture>lines/LineR.png</texture>
+        <texture>images/LineR.png</texture>
       </control>
 	  <control type="group">
 	   <control type="image">
@@ -724,14 +726,14 @@
 			  <posy>80</posy>
 			  <width>800</width>
 			  <height>1</height>
-			  <texture>lines/LineL.png</texture>
+			  <texture>Images/LineL.png</texture>
               </control>
 			  <control type="image">
 			  <posx>560</posx>
 			  <posy>660</posy>
 			  <width>1360</width>
 			  <height>1</height>
-			  <texture>lines/LineR.png</texture>
+			  <texture>Images/LineR.png</texture>
               </control>
    <control type="wraplist" id="500">
 		  <visible>Container.content(Albums) | Container.content(Artists)</visible>

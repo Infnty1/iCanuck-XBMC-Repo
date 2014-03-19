@@ -94,19 +94,19 @@
           <description>Create Bookmark button</description>
           <label>294</label>
           <width>375</width>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
         <control type="button" id="3">
           <description>Clear Bookmark button</description>
           <label>296</label>
           <width>375</width>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
         </control>
         <control type="button" id="4">
           <description>Clear Bookmark button</description>
           <label>20406</label>
           <width>375</width>
-          <texturenofocus border="8">images/White.png</texturenofocus>
+          <texturenofocus border="8">images/Black.png</texturenofocus>
           <visible>videoplayer.content(episodes)</visible>
         </control>
       </control>

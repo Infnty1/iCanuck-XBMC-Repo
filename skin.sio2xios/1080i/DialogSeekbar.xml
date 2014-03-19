@@ -59,7 +59,7 @@
         <align>center</align>
         <aligny>center</aligny>
         <font>size26</font>
-        <textcolor>Black3</textcolor>
+        <textcolor>Silver</textcolor>
         <label>$INFO[VideoPlayer.NextTitle,[COLOR=Grey]$LOCALIZE[209]:  [/COLOR]]</label>
       </control>
     </control>
@@ -251,7 +251,7 @@
         <align>center</align>
         <aligny>center</aligny>
         <font>size26</font>
-        <textcolor>Black3</textcolor>
+        <textcolor>Silver</textcolor>
         <label>$INFO[VideoPlayer.NextTitle,[COLOR=Grey]$LOCALIZE[209]:  [/COLOR]]</label>
       </control>
     </control>

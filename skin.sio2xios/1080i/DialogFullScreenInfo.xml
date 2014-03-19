@@ -47,7 +47,7 @@
           <visible>VideoPlayer.Content(MusicVideos)</visible>
           <font>size27</font>
           <posy>45</posy>
-          <textcolor>Black3</textcolor>
+          <textcolor>silver</textcolor>
           <include>FullscreenInfoLabel</include>
           <label>$INFO[VideoPlayer.Album]</label>
         </control>
@@ -55,7 +55,7 @@
           <visible>Player.ChapterCount</visible>
           <font>size27</font>
           <posy>45</posy>
-          <textcolor>Black3</textcolor>
+          <textcolor>silver</textcolor>
           <include>FullscreenInfoLabel</include>
           <label>$LOCALIZE[21396]$INFO[Player.Chapter, : ]$INFO[Player.ChapterCount, / ]</label>
         </control>

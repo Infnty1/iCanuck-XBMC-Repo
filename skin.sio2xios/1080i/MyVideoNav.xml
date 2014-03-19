@@ -3,8 +3,7 @@
   <allowoverlay>no</allowoverlay>
   <views>52,51,50,53,55,500</views>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
     <include>Videoviews</include>
     <control type="group" description="Side menu 9000 group">
       <visible allowhiddenfocus="true">ControlGroup(9000).HasFocus()</visible>
@@ -13,7 +12,7 @@
         <posx>540</posx>
         <posy>105</posy>
         <width>840</width>
-        <height>850</height>
+        <height>870</height>
         <aspectratio>stretch</aspectratio>
         <texture border="150">images/Dialog.png</texture>
       </control>

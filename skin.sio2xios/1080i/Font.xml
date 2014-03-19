@@ -92,11 +92,6 @@
       <style>bold</style>
     </font>
     <font>
-      <name>size31</name>
-      <filename>Default.ttf</filename>
-      <size>31</size>
-    </font>	
-    <font>
       <name>size33</name>
       <filename>Default.ttf</filename>
       <size>33</size>
@@ -150,11 +145,6 @@
       <size>42</size>
       <style>bold</style>
     </font>
-    <font>
-      <name>size46</name>
-      <filename>Strong.ttf</filename>
-      <size>46</size>
-    </font>		
     <font>
       <name>size60B</name>
       <filename>Default.ttf</filename>

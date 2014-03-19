@@ -43,7 +43,7 @@
         <focusedlayout width="802" height="81">
 		<include>SmallSelector</include>
           <control type="label" description="Main Label">
-            <textcolor>White</textcolor>
+            <textcolor>White2</textcolor>
 
 <include>52MainLabel</include>
             <label>$INFO[ListItem.Label]</label>
@@ -135,7 +135,7 @@
       <posy>440</posy>
       <height>1</height>
       <width>660</width>
-      <texture>lines/Line.png</texture>
+      <texture>images/Line.png</texture>
     </control>
     <control type="textbox" description="HelpDetails">
       <posx>170</posx>

@@ -3,7 +3,7 @@
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="label" id="29">
       <description>passes the values up one level</description>
       <visible>False</visible>

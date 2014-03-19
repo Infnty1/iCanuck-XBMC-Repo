@@ -120,7 +120,7 @@
               <scroll>true</scroll>
               <align>left</align>
               <font>size42B</font>
-              <textcolor>White</textcolor>
+              <textcolor>White2</textcolor>
               <shadowcolor>Black</shadowcolor>
               <animation effect="fade" time="200">VisibleChange</animation>
               <label>$INFO[MusicPlayer.Title]</label>
@@ -266,7 +266,7 @@
               <scroll>true</scroll>
               <align>right</align>
               <font>size42B</font>
-              <textcolor>White</textcolor>
+              <textcolor>White2</textcolor>
               <animation effect="fade" time="200">VisibleChange</animation>
               <label>$INFO[MusicPlayer.Title]</label>
             </control>
@@ -360,7 +360,7 @@
         <posy>0</posy>
         <width>1920</width>
         <height>60</height>
-        <texture>images/White.png</texture>
+        <texture>images/Black.png</texture>
 		<colordiffuse>AAFFFFFF</colordiffuse>
       </control>
       <control type="label" description="row 1 sys label">

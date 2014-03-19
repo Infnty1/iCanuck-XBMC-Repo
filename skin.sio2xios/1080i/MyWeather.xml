@@ -2,8 +2,7 @@
   <defaultcontrol always="true">3</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
+  <controls>
     <control type="image">
       <width>1920</width>
       <height>1080</height>
@@ -19,7 +18,7 @@
         <height>45</height>
         <label>$LOCALIZE[31016]</label>
         <font>size26</font>
-        <textcolor>White</textcolor>
+        <textcolor>Grey</textcolor>
       </control>
       <control type="label" id="11" description="last update">
         <posx>1400</posx>
@@ -28,12 +27,12 @@
         <height>45</height>
         <label>-</label>
         <font>size26</font>
-        <textcolor>White</textcolor>
+        <textcolor>Grey</textcolor>
       </control>
       <control type="spincontrolex" id="3">
         <visible>!StringCompare(Weather.Plugin,weather.weatherplus)</visible>
         <description>Location</description>
-        <colordiffuse>FFFFFFFF</colordiffuse>
+        <colordiffuse>FFFFAA00</colordiffuse>
         <posx>200</posx>
         <posy>200</posy>
         <width>500</width>
@@ -42,7 +41,7 @@
         <texturenofocus></texturenofocus>
         <label>-</label>
         <font>size42B</font>
-		<shadowcolor>Blue7</shadowcolor>
+		<shadowcolor>-</shadowcolor>
         <ondown>150</ondown>
       </control>
     </control>
@@ -67,7 +66,7 @@
         <width>500</width>
         <font>size212</font>
         <align>center</align>
-        <shadowcolor>Blue7</shadowcolor>
+        <shadowcolor>-</shadowcolor>
         <height>30</height>
         <label>$INFO[Window.Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
       </control>
@@ -77,7 +76,7 @@
         <width>500</width>
         <height>30</height>
         <align>center</align>
-		<shadowcolor>Blue7</shadowcolor>
+		<shadowcolor>-</shadowcolor>
         <label>$LOCALIZE[402] : $INFO[Window.Property(Current.FeelsLike)]°</label>
       </control>
       <control type="label" description="Current dew value">
@@ -86,7 +85,7 @@
         <width>500</width>
         <height>30</height>
         <align>center</align>
-		<shadowcolor>Blue7</shadowcolor>
+		<shadowcolor>-</shadowcolor>
         <label>$LOCALIZE[405] : $INFO[Window.Property(Current.DewPoint)]</label>
       </control>
       <control type="label" description="Current humidity value">
@@ -94,7 +93,7 @@
         <width>600</width>
         <height>30</height>
         <align>center</align>
-		<shadowcolor>Blue7</shadowcolor>
+		<shadowcolor>-</shadowcolor>
         <label>$LOCALIZE[406] : $INFO[Window.Property(Current.Humidity)]</label>
       </control>
       <control type="label" description="Current uv label">
@@ -102,7 +101,7 @@
         <width>600</width>
         <height>30</height>
         <align>center</align>
-		<shadowcolor>Blue7</shadowcolor>
+		<shadowcolor>-</shadowcolor>
         <label>$LOCALIZE[403] : $INFO[Window.Property(Current.UVIndex)]</label>
       </control>
       <control type="label" description="Current wind value">
@@ -111,7 +110,7 @@
         <width>600</width>
         <height>30</height>
         <align>center</align>
-		<shadowcolor>Blue7</shadowcolor>
+		<shadowcolor>-</shadowcolor>
         <label>$LOCALIZE[404] : $INFO[Window.Property(Current.Wind)]</label>
       </control>
     </control>
@@ -133,8 +132,8 @@
           <width>220</width>
           <align>center</align>
           <font>size36</font>
-          <shadowcolor>Blue7</shadowcolor>
-          <label>[COLOR=Grey4]$INFO[ListItem.label][/COLOR]</label>
+          <shadowcolor>-</shadowcolor>
+          <label>$INFO[ListItem.label]</label>
         </control>
         <control type="label" description="temps">
           <posx>125</posx>
@@ -142,7 +141,7 @@
           <height>100</height>
           <width>220</width>
           <align>center</align>
-		  <shadowcolor>Blue7</shadowcolor>
+		  <shadowcolor>-</shadowcolor>
           <label>$INFO[ListItem.label2]</label>
         </control>
         <control type="label" description="Conditions">
@@ -152,7 +151,7 @@
           <width>220</width>
           <font>size21</font>
           <align>center</align>
-		  <shadowcolor>Blue7</shadowcolor>
+		  <shadowcolor>-</shadowcolor>
           <label>$INFO[ListItem.Property(Conditions)]</label>
         </control>
         <control type="image" description="Dayicon">
@@ -165,22 +164,15 @@
         </control>
       </itemlayout>
       <focusedlayout width="250">
-          <control type="image">
-          <posx>25</posx>
-          <posy>20</posy>		  
-            <width>200</width>
-            <height>81</height>
-        <texture colordiffuse="$VAR[diffuseselect]">images/buttonselectweather.png</texture>
-          </control>	  
         <control type="label">
           <posx>125</posx>
           <posy>0</posy>
           <height>120</height>
-          <width>300</width>
+          <width>220</width>
           <align>center</align>
-          <font>size46</font>
-          <textcolor>Blue7</textcolor>
-          <shadowcolor>Blue7</shadowcolor>
+          <font>size36</font>
+          <textcolor>Yellow</textcolor>
+          <shadowcolor>-</shadowcolor>
           <label>$INFO[ListItem.label]</label>
         </control>
         <control type="label" description="temps">
@@ -189,7 +181,7 @@
           <height>100</height>
           <width>220</width>
           <align>center</align>
-		  <shadowcolor>Blue7</shadowcolor>
+		  <shadowcolor>-</shadowcolor>
           <label>$INFO[ListItem.label2]</label>
         </control>
         <control type="label" description="Conditions">
@@ -199,7 +191,7 @@
           <width>220</width>
           <font>size21</font>
           <align>center</align>
-		  <shadowcolor>Blue7</shadowcolor>
+		  <shadowcolor>-</shadowcolor>
           <label>$INFO[ListItem.Property(Conditions)]</label>
         </control>
         <control type="image" description="Dayicon">

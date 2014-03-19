@@ -5,9 +5,8 @@
     <origin x="0" y="0" />
   </coordinates>
   <include>OpenClose</include>
-    <controls>
-    <include>Backgroundcolor</include>
-
+  <controls>
+    <include>BlackBackground</include>
     <include>MusicBackground</include>
     <control type="image" description="Vignette">
       <include>Dimensions_Fullscreen</include>
@@ -140,7 +139,7 @@
       <width>2085</width>
       <height>1</height>
       <aspectratio>stretch</aspectratio>
-      <texture>lines/Line1.png</texture>
+      <texture>images/Line1.png</texture>
     </control>
     <control type="group" description="Options">
       <posy>0</posy>

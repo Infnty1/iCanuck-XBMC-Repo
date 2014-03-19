@@ -3,7 +3,7 @@
   <allowoverlay>no</allowoverlay>
   <include>OpenClose</include>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="label" id="1000" description="Profile Name">
       <include>Heading</include>
     </control>
@@ -38,23 +38,23 @@
       <control type="button" id="7">
         <height>81</height>
         <align>left</align>
-        <texturefocus>Images/buttonselect2.png</texturefocus>
+        <texturefocus>Images/Whitebutton.png</texturefocus>
       </control>
       <control type="radiobutton" id="8">
         <height>81</height>
         <align>left</align>
-        <texturefocus>Images/buttonselect2.png</texturefocus>
+        <texturefocus>Images/Whitebutton.png</texturefocus>
       </control>
       <control type="spincontrolex" id="9">
         <height>81</height>
         <align>left</align>
-        <texturefocus>Images/buttonselect2.png</texturefocus>
+        <texturefocus>Images/Whitebutton.png</texturefocus>
       </control>
       <control type="image" description="Line split">
         <posy>512</posy>
         <width>802</width>
         <height>1</height>
-        <texture>lines/Line.png</texture>
+        <texture>images/Line.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="button" id="28" description="OK">
@@ -66,7 +66,7 @@
         <onright>-</onright>
         <onup>5</onup>
         <ondown>29</ondown>
-        <texturefocus>Images/buttonselect2.png</texturefocus>
+        <texturefocus>Images/Whitebutton.png</texturefocus>
       </control>
       <control type="button" id="29" description="Cancel">
         <posx>225</posx>
@@ -77,14 +77,14 @@
         <onright>-</onright>
         <onup>28</onup>
         <ondown>5</ondown>
-        <texturefocus>Images/buttonselect2.png</texturefocus>
+        <texturefocus>Images/Whitebutton.png</texturefocus>
       </control>
     </control>
 	<control type="image">
 	  <posx>959</posx>
 	  <width>1</width>
 	  <height>1080</height>
-	  <texture>lines/LineV.png</texture>
+	  <texture>Images/LineV.png</texture>
 	  </control>
   </controls>
 </window>

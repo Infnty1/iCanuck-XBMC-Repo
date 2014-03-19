@@ -9,8 +9,8 @@
     <font>size33</font>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <scroll>true</scroll>
     <scrollspeed>50</scrollspeed>
@@ -27,8 +27,8 @@
     <textoffsetx>20</textoffsetx>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <scrollout>false</scrollout>
     <pauseatend>3000</pauseatend>
@@ -39,8 +39,8 @@
     <font>size30</font>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <pagecontrol>61</pagecontrol>
     <pulseonselect></pulseonselect>
@@ -68,10 +68,10 @@
     <textoffsetx>20</textoffsetx>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
-    <texturefocus>images/buttonselect7.png</texturefocus>
+    <texturefocus>Images/WhiteButton.png</texturefocus>
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="edit">
@@ -86,10 +86,10 @@
     <textoffsetx>20</textoffsetx>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
-    <texturefocus>images/buttonselect2.png</texturefocus>
+    <texturefocus>Images/WhiteButton.png</texturefocus>
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="togglebutton">
@@ -104,12 +104,12 @@
     <textoffsetx>20</textoffsetx>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <altselectedcolor>Yellow</altselectedcolor>
     <disabledcolor>Disabled</disabledcolor>
-    <texturefocus>images/buttonselect2.png</texturefocus>
-	<alttexturefocus>images/buttonselect2.png</alttexturefocus>
+    <texturefocus>Images/WhiteButton.png</texturefocus>
+	<alttexturefocus>Images/WhiteButton.png</alttexturefocus>
     <aligny>center</aligny>
     <pulseonselect>false</pulseonselect>
   </default>
@@ -123,14 +123,14 @@
     <label>-</label>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
-    <radiowidth>50</radiowidth>
-    <radioheight>50</radioheight>
-    <texturefocus>images/buttonselect7.png</texturefocus>
-        <textureradiofocus aspectratio="keep">images/RadioON.png</textureradiofocus>
-        <textureradionofocus aspectratio="keep">images/RadioOFF.png</textureradionofocus>
+    <radiowidth>30</radiowidth>
+    <radioheight>30</radioheight>
+    <texturefocus>Images/WhiteButton.png</texturefocus>
+    <textureradiofocus>images/RadioON.png</textureradiofocus>
+    <textureradionofocus>-</textureradionofocus>
     <textoffsetx>20</textoffsetx>
     <!--<radioposx>262</radioposx>-->
     <pulseonselect>false</pulseonselect>
@@ -142,14 +142,14 @@
     <textureupfocus>images/ArrowUpFO.png</textureupfocus>
     <texturedown>images/ArrowDownNF.png</texturedown>
     <texturedownfocus>images/ArrowDownFO.png</texturedownfocus>
-    <texturefocus>images/buttonselect7.png</texturefocus>
-    <spinwidth>25</spinwidth>
-    <spinheight>25</spinheight>
+    <texturefocus>Images/WhiteButton.png</texturefocus>
+    <spinwidth>18</spinwidth>
+    <spinheight>18</spinheight>
     <font>size33</font>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <textoffsetx>20</textoffsetx>
     <align>left</align>
@@ -168,13 +168,13 @@
     <textureupfocus>images/ArrowUpFO.png</textureupfocus>
     <texturedown>images/ArrowDownNF.png</texturedown>
     <texturedownfocus>images/ArrowDownFO.png</texturedownfocus>
-    <texturefocus>images/buttonselect7.png</texturefocus>
-    <spinwidth>25</spinwidth>
-    <spinheight>25</spinheight>
+    <texturefocus>Images/WhiteButton.png</texturefocus>
+    <spinwidth>18</spinwidth>
+    <spinheight>18</spinheight>
     <textcolor>White</textcolor>
     <shadowcolor>Shadow</shadowcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <textoffsetx>20</textoffsetx>
     <align>left</align>
@@ -201,12 +201,12 @@
     <texturesliderbar>OSD/SliderBackground.png</texturesliderbar>
     <textureslidernib>OSD/SliderNibNF.png</textureslidernib>
     <textureslidernibfocus>OSD/SliderNibFO.png</textureslidernibfocus>
-   <texturefocus>images/buttonselect2.png</texturefocus>
+   <texturefocus>Images/WhiteButton.png</texturefocus>
     <texturenofocus>-</texturenofocus>
     <font>size33</font>
     <textcolor>White</textcolor>
-    <focusedcolor>White</focusedcolor>
-    <selectedcolor>White</selectedcolor>
+    <focusedcolor>White2</focusedcolor>
+    <selectedcolor>White2</selectedcolor>
     <disabledcolor>Disabled</disabledcolor>
     <textoffsetx>20</textoffsetx>
   </default>

@@ -48,7 +48,7 @@
             <posy>80</posy>
             <height>1</height>
             <width>1200</width>
-            <texture>lines/Line.png</texture>
+            <texture>images/line.png</texture>
           </control>
         </control>
       </itemlayout>
@@ -81,7 +81,7 @@
             <posy>80</posy>
             <height>1</height>
             <width>1200</width>
-            <texture>lines/Line.png</texture>
+            <texture>images/line.png</texture>
           </control>
           <control type="textbox">
             <posx>10</posx>
@@ -109,7 +109,7 @@
             <posy>782</posy>
             <height>1</height>
             <width>1200</width>
-            <texture>lines/Line.png</texture>
+            <texture>images/line.png</texture>
           </control>
         </control>
         <control type="group" description="Imagefeed">
@@ -178,7 +178,7 @@
       <posy>130</posy>
       <height>1</height>
       <width>1920</width>
-      <texture>lines/Line.png</texture>
+      <texture>images/line.png</texture>
     </control>
     <control type="list" id="30051" description="topmenu">
       <posx>60</posx>

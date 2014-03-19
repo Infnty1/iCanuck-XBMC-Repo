@@ -3,13 +3,13 @@
   <animation effect="fade" time="400">WindowOpen</animation>
   <animation effect="fade" time="400">WindowClose</animation>
   <controls>
-    <include>Backgroundcolor</include>
+    <include>BlackBackground</include>
     <control type="image">
       <posx>0</posx>
       <posy>0</posy>
       <width>1920</width>
       <height>1080</height>
-      <texture>images/White.png</texture>
+      <texture>images/Black.png</texture>
       <animation effect="fade" time="200">WindowOpen</animation>
     </control>
     <!--control type="image">
